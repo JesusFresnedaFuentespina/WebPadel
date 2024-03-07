@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/javascript/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>Inicio de sesión</title>
+</head>
+
+<body id="body_login" onload="mostrarImagenSeleccionada()">
+    <h1>Inicio de sesión:</h1>
+    <form id="formulario_inicio">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <br>
+
+        <label for="imagen">Imagen:</label>
+        <select id="selector_imagen" onchange="mostrarImagenSeleccionada()">
+            <option value="/imagenes/anaconda.png">Anaconda</option>
+            <option value="/imagenes/cangrejo.png">Cangrejo</option>
+            <option value="/imagenes/loro.png">Loro</option>
+            <option value="/imagenes/medusa.png">Medusa</option>
+        </select>
+
+        <br>
+
+        <img id="imagen_seleccionada" src="" alt="imagen seleccionada">
+
+        <br>
+
+        <button id="button_send">Enviar</button>
+    </form>
+</body>
+
+</html>

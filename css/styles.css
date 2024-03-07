@@ -1,0 +1,24 @@
+#body_login { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#formulario_inicio{
+    text-align: center;
+}
+
+#formulario_inicio label,
+#formulario_inicio input,
+#formulario_inicio select,
+#formulario_inicio img {
+    margin-bottom: 20px; /* Puedes ajustar el valor según sea necesario */
+}
+
+
+#imagen_seleccionada{
+    width: 15%;
+    height: 15%;
+}
